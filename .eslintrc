@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "amd": true
+  },
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "jsx-quotes": [1, "prefer-double"],
+    "react/jsx-filename-extension": [1, {
+      "extensions": [".js", ".jsx"]
+    }],
+    "react/self-closing-comp": [2, {
+      "component": false,
+      "html": false
+    }],
+    "react/jsx-wrap-multilines": [1, {
+      "arrow": "parens-new-line"
+    }],
+    "no-plusplus": [2, { "allowForLoopAfterthoughts": true }],
+    "react/jsx-one-expression-per-line": "off",
+    "class-methods-use-this": "off",
+    "react/no-array-index-key": "off",
+    "react/jsx-closing-bracket-location": "off",
+    "react/jsx-closing-tag-location": "off"
+  },
+  "plugins": [
+    "prettier",
+    "react",
+    "import",
+    "jsx-a11y"
+  ]
+}
