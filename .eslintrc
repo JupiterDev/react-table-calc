@@ -28,7 +28,10 @@
     "class-methods-use-this": "off",
     "react/no-array-index-key": "off",
     "react/jsx-closing-bracket-location": "off",
-    "react/jsx-closing-tag-location": "off"
+    "react/jsx-closing-tag-location": "off",
+    "no-param-reassign": 0,
+    "react/no-access-state-in-setstate": 0,
+    "no-restricted-globals": 0
   },
   "plugins": [
     "prettier",
